@@ -1,0 +1,9 @@
+microsoft.com 20.70.246.20 Microsoft Corporation Australia
+
+apple.com 17.253.144.10 Apple Inc.  United States of America
+
+spotify.com 35.186.224.24 Google LLC United States of America
+
+netflix.com 44.242.60.85 Amazon.com, Inc.  United States of America
+
+bbc.com 151.101.128.81  Fastly, Inc.  United States of America

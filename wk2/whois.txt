@@ -1,0 +1,402 @@
+Domain Name: google.com
+Registry Domain ID: 2138514_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2024-08-02T02:17:33+00:00
+Creation Date: 1997-09-15T07:00:00+00:00
+Registrar Registration Expiration Date: 2028-09-13T07:00:00+00:00
+Registrar: MarkMonitor, Inc.
+        MarkMonitor Inc.
+Sponsoring Registrar IANA ID: 292
+Registrar Abuse Contact Email: 
+Registrar Abuse Contact Phone: +1.2086851750
+Status: 
+        clientDeleteProhibited
+        clientTransferProhibited
+        clientUpdateProhibited
+        serverDeleteProhibited
+        serverTransferProhibited
+        serverUpdateProhibited
+Registry Registrant ID: 
+Registrant Name: 
+Registrant Organization: Google LLC
+Registrant Street: 
+Registrant City: 
+Registrant State/Province: CA
+Registrant Postal Code: 
+Registrant Country: US
+Registrant Phone: 
+Registrant Phone Ext: 
+Registrant Fax: 
+Registrant Fax Ext: 
+Registrant Email: REDACTED FOR PRIVACY (DT)
+Registry Admin ID: 
+Admin Name: 
+Admin Organization: Google LLC
+Admin Street: 
+Admin City: 
+Admin State/Province: CA
+Admin Postal Code: 
+Admin Country: US
+Admin Phone: 
+Admin Phone Ext: 
+Admin Fax: 
+Admin Fax Ext: 
+Admin Email: REDACTED FOR PRIVACY (DT)
+Registry Tech ID: 
+Tech Name: 
+Tech Organization: Google LLC
+Tech Street: 
+Tech City: 
+Tech State/Province: CA
+Tech Postal Code: 
+Tech Country: US
+Tech Phone: 
+Tech Phone Ext: 
+Tech Fax: 
+Tech Fax Ext: 
+Tech Email: REDACTED FOR PRIVACY (DT)
+Registry Billing ID: 
+Billing Name: 
+Billing Organization: 
+Billing Street: 
+Billing City: 
+Billing State/Province: 
+Billing Postal Code: 
+Billing Country: 
+Billing Phone: 
+Billing Phone Ext: 
+Billing Fax: 
+Billing Fax Ext: 
+Billing Email: 
+Nameservers: 
+        ns1.google.com
+        ns2.google.com
+        ns3.google.com
+        ns4.google.com
+DNSSEC: unsigned
+
+
+
+Domain Name: github.com
+Registry Domain ID: 1264983250_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2024-09-07T09:16:33+00:00
+        2024-09-07
+Creation Date: 2007-10-09T18:20:50+00:00
+        2007-10-09
+Registrar Registration Expiration Date: 2026-10-09T00:00:00+00:00
+        2026-10-09
+Registrar: MarkMonitor, Inc.
+        MarkMonitor Inc.
+Sponsoring Registrar IANA ID: 292
+Registrar Abuse Contact Email: 
+Registrar Abuse Contact Phone: +1.2086851750
+Status: 
+        clientDeleteProhibited
+        clientTransferProhibited
+        clientUpdateProhibited
+Registry Registrant ID: 
+Registrant Name: 
+Registrant Organization: GitHub, Inc.
+Registrant Street: 
+Registrant City: 
+Registrant State/Province: CA
+Registrant Postal Code: 
+Registrant Country: US
+Registrant Phone: 
+Registrant Phone Ext: 
+Registrant Fax: 
+Registrant Fax Ext: 
+Registrant Email: REDACTED FOR PRIVACY (DT)
+Registry Admin ID: 
+Admin Name: 
+Admin Organization: GitHub, Inc.
+Admin Street: 
+Admin City: 
+Admin State/Province: CA
+Admin Postal Code: 
+Admin Country: US
+Admin Phone: 
+Admin Phone Ext: 
+Admin Fax: 
+Admin Fax Ext: 
+Admin Email: REDACTED FOR PRIVACY (DT)
+Registry Tech ID: 
+Tech Name: 
+Tech Organization: GitHub, Inc.
+Tech Street: 
+Tech City: 
+Tech State/Province: CA
+Tech Postal Code: 
+Tech Country: US
+Tech Phone: 
+Tech Phone Ext: 
+Tech Fax: 
+Tech Fax Ext: 
+Tech Email: REDACTED FOR PRIVACY (DT)
+Registry Billing ID: 
+Billing Name: 
+Billing Organization: 
+Billing Street: 
+Billing City: 
+Billing State/Province: 
+Billing Postal Code: 
+Billing Country: 
+Billing Phone: 
+Billing Phone Ext: 
+Billing Fax: 
+Billing Fax Ext: 
+Billing Email: 
+Nameservers: 
+        dns1.p08.nsone.net
+        dns2.p08.nsone.net
+        dns3.p08.nsone.net
+        dns4.p08.nsone.net
+        ns-1283.awsdns-32.org
+        ns-1707.awsdns-21.co.uk
+        ns-421.awsdns-52.com
+        ns-520.awsdns-01.net
+DNSSEC: unsigned
+
+
+
+Domain Name: amazon.com
+Registry Domain ID: 281209_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2024-09-29T09:48:15+0000
+Creation Date: 1994-11-01T05:00:00+0000
+Registrar Registration Expiration Date: 2025-10-31T00:00:00+0000
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: 
+Registrar Abuse Contact Phone: +1.2086851750
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+Registry Registrant ID: 
+Registrant Name: Hostmaster, Amazon Legal Dept.
+Registrant Organization: Amazon Technologies, Inc.
+Registrant Street: P.O. Box 8102
+Registrant City: Reno
+Registrant State/Province: NV
+Registrant Postal Code: 89507
+Registrant Country: US
+Registrant Phone: +1.2062664064
+Registrant Phone Ext: 
+Registrant Fax: +1.2062667010
+Registrant Fax Ext: 
+Registrant Email: 
+Registry Admin ID: 
+Admin Name: Hostmaster, Amazon Legal Dept.
+Admin Organization: Amazon Technologies, Inc.
+Admin Street: P.O. Box 8102
+Admin City: Reno
+Admin State/Province: NV
+Admin Postal Code: 89507
+Admin Country: US
+Admin Phone: +1.2062664064
+Admin Phone Ext: 
+Admin Fax: +1.2062667010
+Admin Fax Ext: 
+Admin Email: 
+Registry Tech ID: 
+Tech Name: Hostmaster, Amazon Legal Dept.
+Tech Organization: Amazon Technologies, Inc.
+Tech Street: P.O. Box 8102
+Tech City: Reno
+Tech State/Province: NV
+Tech Postal Code: 89507
+Tech Country: US
+Tech Phone: +1.2062664064
+Tech Phone Ext: 
+Tech Fax: +1.2062667010
+Tech Fax Ext: 
+Tech Email: 
+Name Server: ns2.amzndns.co.uk
+Name Server: ns1.amzndns.co.uk
+Name Server: ns2.amzndns.net
+Name Server: ns2.amzndns.org
+Name Server: ns1.amzndns.org
+Name Server: ns2.amzndns.com
+Name Server: ns1.amzndns.net
+Name Server: ns1.amzndns.com
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+
+For more information on WHOIS status codes, please visit:
+  https://www.icann.org/resources/pages/epp-status-codes
+
+MarkMonitor Domain Management(TM)
+Protecting companies and consumers in a digital world.
+
+Visit MarkMonitor at https://www.markmonitor.com
+Contact us at +1.8007459229
+In Europe, at +44.02032062220
+----
+
+
+
+
+Domain Name: wikipedia.org
+Registry Domain ID: D51687756-LROR
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2024-12-12T09:18:46+00:00
+        2024-12-17
+Creation Date: 2001-01-13T00:12:14+00:00
+        2001-01-13
+Registrar Registration Expiration Date: 2026-01-13T00:00:00+00:00
+        2026-01-13
+Registrar: MarkMonitor, Inc.
+        MarkMonitor Inc.
+Sponsoring Registrar IANA ID: 292
+Registrar Abuse Contact Email: 
+Registrar Abuse Contact Phone: +1.2086851750
+Status: 
+        clientDeleteProhibited
+        clientTransferProhibited
+        clientUpdateProhibited
+Registry Registrant ID: 
+Registrant Name: 
+Registrant Organization: Wikimedia Foundation, Inc.
+Registrant Street: 
+Registrant City: 
+Registrant State/Province: CA
+Registrant Postal Code: 
+Registrant Country: US
+Registrant Phone: 
+Registrant Phone Ext: 
+Registrant Fax: 
+Registrant Fax Ext: 
+Registrant Email: REDACTED FOR PRIVACY (DT)
+Registry Admin ID: 
+Admin Name: 
+Admin Organization: Wikimedia Foundation, Inc.
+Admin Street: 
+Admin City: 
+Admin State/Province: CA
+Admin Postal Code: 
+Admin Country: US
+Admin Phone: 
+Admin Phone Ext: 
+Admin Fax: 
+Admin Fax Ext: 
+Admin Email: REDACTED FOR PRIVACY (DT)
+Registry Tech ID: 
+Tech Name: 
+Tech Organization: Wikimedia Foundation, Inc.
+Tech Street: 
+Tech City: 
+Tech State/Province: CA
+Tech Postal Code: 
+Tech Country: US
+Tech Phone: 
+Tech Phone Ext: 
+Tech Fax: 
+Tech Fax Ext: 
+Tech Email: REDACTED FOR PRIVACY (DT)
+Registry Billing ID: 
+Billing Name: 
+Billing Organization: 
+Billing Street: 
+Billing City: 
+Billing State/Province: 
+Billing Postal Code: 
+Billing Country: 
+Billing Phone: 
+Billing Phone Ext: 
+Billing Fax: 
+Billing Fax Ext: 
+Billing Email: 
+Nameservers: 
+        ns0.wikimedia.org
+        ns1.wikimedia.org
+        ns2.wikimedia.org
+DNSSEC: unsigned
+
+Domain Name: youtube.com
+Registry Domain ID: 142504053_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2025-01-14T10:06:34+00:00
+        2025-01-14
+Creation Date: 2005-02-15T05:13:12+00:00
+        2005-02-15
+Registrar Registration Expiration Date: 2026-02-15T00:00:00+00:00
+        2026-02-15
+Registrar: MarkMonitor, Inc.
+        MarkMonitor Inc.
+Sponsoring Registrar IANA ID: 292
+Registrar Abuse Contact Email: 
+Registrar Abuse Contact Phone: +1.2086851750
+Status: 
+        clientDeleteProhibited
+        clientTransferProhibited
+        clientUpdateProhibited
+        serverDeleteProhibited
+        serverTransferProhibited
+        serverUpdateProhibited
+Registry Registrant ID: 
+Registrant Name: 
+Registrant Organization: Google LLC
+Registrant Street: 
+Registrant City: 
+Registrant State/Province: CA
+Registrant Postal Code: 
+Registrant Country: US
+Registrant Phone: 
+Registrant Phone Ext: 
+Registrant Fax: 
+Registrant Fax Ext: 
+Registrant Email: REDACTED FOR PRIVACY (DT)
+Registry Admin ID: 
+Admin Name: 
+Admin Organization: Google LLC
+Admin Street: 
+Admin City: 
+Admin State/Province: CA
+Admin Postal Code: 
+Admin Country: US
+Admin Phone: 
+Admin Phone Ext: 
+Admin Fax: 
+Admin Fax Ext: 
+Admin Email: REDACTED FOR PRIVACY (DT)
+Registry Tech ID: 
+Tech Name: 
+Tech Organization: Google LLC
+Tech Street: 
+Tech City: 
+Tech State/Province: CA
+Tech Postal Code: 
+Tech Country: US
+Tech Phone: 
+Tech Phone Ext: 
+Tech Fax: 
+Tech Fax Ext: 
+Tech Email: REDACTED FOR PRIVACY (DT)
+Registry Billing ID: 
+Billing Name: 
+Billing Organization: 
+Billing Street: 
+Billing City: 
+Billing State/Province: 
+Billing Postal Code: 
+Billing Country: 
+Billing Phone: 
+Billing Phone Ext: 
+Billing Fax: 
+Billing Fax Ext: 
+Billing Email: 
+Nameservers: 
+        ns1.google.com
+        ns2.google.com
+        ns3.google.com
+        ns4.google.com
+DNSSEC: unsigned
