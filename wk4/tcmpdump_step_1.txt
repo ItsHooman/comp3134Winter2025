@@ -1,0 +1,134 @@
+(base) 6A:5B:0E:48:54:87:~ hoomanafsharnia$ sudo tcpdump -i en0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on en0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+00:14:15.060425 IP 6a:5b:0e:48:54:87.49289 > bedroom.afs3-fileserver: Flags [P.], seq 3842449068:3842449155, ack 2560957120, win 2048, options [nop,nop,TS val 3480587631 ecr 3570011894], length 87
+00:14:15.154437 IP 6a:5b:0e:48:54:87.65284 > mynetwork.home.domain: 40873+ PTR? 142.2.168.192.in-addr.arpa. (44)
+00:14:15.160029 IP mynetwork.home.domain > 6a:5b:0e:48:54:87.65284: 40873* 1/0/0 PTR 6A:5B:0E:48:54:87. (75)
+00:14:15.161598 IP 6a:5b:0e:48:54:87.58013 > mynetwork.home.domain: 37633+ PTR? 14.2.168.192.in-addr.arpa. (43)
+00:14:15.168456 IP mynetwork.home.domain > 6a:5b:0e:48:54:87.58013: 37633* 1/0/0 PTR Bedroom. (64)
+00:14:15.272298 IP 6a:5b:0e:48:54:87.60780 > mynetwork.home.domain: 57459+ PTR? 1.2.168.192.in-addr.arpa. (42)
+00:14:15.276487 IP mynetwork.home.domain > 6a:5b:0e:48:54:87.60780: 57459* 1/0/0 PTR mynetwork.home. (70)
+00:14:15.374046 IP bedroom.afs3-fileserver > 6a:5b:0e:48:54:87.49289: Flags [.], ack 87, win 4093, options [nop,nop,TS val 3570014148 ecr 3480587631], length 0
+00:14:15.374049 IP bedroom.afs3-fileserver > 6a:5b:0e:48:54:87.49289: Flags [P.], seq 1:310, ack 87, win 4096, options [nop,nop,TS val 3570014151 ecr 3480587631], length 309
+00:14:15.374281 IP 6a:5b:0e:48:54:87.49289 > bedroom.afs3-fileserver: Flags [.], ack 310, win 2043, options [nop,nop,TS val 3480587945 ecr 3570014151], length 0
+00:14:15.676167 ARP, Request who-has da:2b:98:a1:c1:ba tell tl-wa850re, length 46
+00:14:15.683649 IP 6a:5b:0e:48:54:87.53067 > mynetwork.home.domain: 43079+ PTR? 137.2.168.192.in-addr.arpa. (44)
+00:14:15.698089 IP mynetwork.home.domain > 6a:5b:0e:48:54:87.53067: 43079* 1/0/0 PTR DA:2B:98:A1:C1:BA. (75)
+00:14:15.699460 IP 6a:5b:0e:48:54:87.62015 > mynetwork.home.domain: 14905+ PTR? 143.2.168.192.in-addr.arpa. (44)
+00:14:15.702866 IP mynetwork.home.domain > 6a:5b:0e:48:54:87.62015: 14905* 1/0/0 PTR TL-WA850RE. (68)
+00:14:16.497598 IP mynetwork.home.9431 > 192.168.2.255.9431: UDP, length 62
+00:14:17.077199 IP 6a:5b:0e:48:54:87.49289 > bedroom.afs3-fileserver: Flags [P.], seq 87:174, ack 310, win 2048, options [nop,nop,TS val 3480589648 ecr 3570014151], length 87
+00:14:17.151012 IP bedroom.afs3-fileserver > 6a:5b:0e:48:54:87.49289: Flags [.], ack 174, win 4093, options [nop,nop,TS val 3570015894 ecr 3480589648], length 0
+00:14:17.151018 IP bedroom.afs3-fileserver > 6a:5b:0e:48:54:87.49289: Flags [P.], seq 310:619, ack 174, win 4096, options [nop,nop,TS val 3570015894 ecr 3480589648], length 309
+00:14:17.151244 IP 6a:5b:0e:48:54:87.49289 > bedroom.afs3-fileserver: Flags [.], ack 619, win 2043, options [nop,nop,TS val 3480589722 ecr 3570015894], length 0
+00:14:17.620607 ARP, Request who-has tl-wa901nd tell tl-wa850re, length 46
+00:14:17.625851 IP 6a:5b:0e:48:54:87.64585 > mynetwork.home.domain: 51125+ PTR? 11.2.168.192.in-addr.arpa. (43)
+00:14:17.634605 IP mynetwork.home.domain > 6a:5b:0e:48:54:87.64585: 51125* 1/0/0 PTR TL-WA901ND. (67)
+00:14:17.733222 IP 6a:5b:0e:48:54:87.62538 > ec2-44-218-45-89.compute-1.amazonaws.com.https: Flags [P.], seq 1681311162:1681311192, ack 1503414003, win 2048, options [nop,nop,TS val 2750633708 ecr 3554409342], length 30
+00:14:17.733787 IP 6a:5b:0e:48:54:87.62538 > ec2-44-218-45-89.compute-1.amazonaws.com.https: Flags [P.], seq 30:54, ack 1, win 2048, options [nop,nop,TS val 2750633708 ecr 3554409342], length 24
+00:14:17.734487 IP 6a:5b:0e:48:54:87.62538 > ec2-44-218-45-89.compute-1.amazonaws.com.https: Flags [F.], seq 54, ack 1, win 2048, options [nop,nop,TS val 2750633709 ecr 3554409342], length 0
+00:14:17.737648 IP 6a:5b:0e:48:54:87.57789 > mynetwork.home.domain: 54164+ PTR? 89.45.218.44.in-addr.arpa. (43)
+00:14:17.765320 IP ec2-44-218-45-89.compute-1.amazonaws.com.https > 6a:5b:0e:48:54:87.62538: Flags [.], ack 55, win 144, options [nop,nop,TS val 3554520005 ecr 2750633708], length 0
+00:14:17.765323 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 39
+00:14:17.768787 IP ec2-44-218-45-89.compute-1.amazonaws.com.https > 6a:5b:0e:48:54:87.62538: Flags [F.], seq 1, ack 55, win 144, options [nop,nop,TS val 3554520005 ecr 2750633708], length 0
+00:14:17.768902 IP 6a:5b:0e:48:54:87.62538 > ec2-44-218-45-89.compute-1.amazonaws.com.https: Flags [.], ack 2, win 2048, options [nop,nop,TS val 2750633744 ecr 3554520005], length 0
+00:14:17.769010 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 56
+00:14:17.770789 IP mynetwork.home.domain > 6a:5b:0e:48:54:87.57789: 54164 1/4/0 PTR ec2-44-218-45-89.compute-1.amazonaws.com. (230)
+00:14:17.775207 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 33
+00:14:17.883877 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 84
+00:14:17.883880 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 71
+00:14:17.884597 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 50
+00:14:17.886215 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 46
+00:14:17.888218 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 39
+00:14:17.891069 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 33
+00:14:17.891306 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 56
+00:14:17.897985 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 33
+00:14:17.926038 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 84
+00:14:17.926041 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 69
+00:14:17.926043 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 38
+00:14:17.926826 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 50
+00:14:17.928626 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 46
+00:14:17.959740 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 33
+00:14:18.036763 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 99
+00:14:18.036766 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 36
+00:14:18.037516 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 50
+00:14:18.039190 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 46
+00:14:18.047773 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 33
+00:14:18.131214 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 39
+00:14:18.135467 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 56
+00:14:18.139858 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 33
+00:14:18.438552 IP uschi5-edge-get-002.a.aaplimg.com.https > 6a:5b:0e:48:54:87.58669: UDP, length 110
+00:14:18.438556 IP uschi5-edge-get-002.a.aaplimg.com.https > 6a:5b:0e:48:54:87.58669: UDP, length 38
+00:14:18.438781 IP 6a:5b:0e:48:54:87 > uschi5-edge-get-002.a.aaplimg.com: ICMP 6a:5b:0e:48:54:87 udp port 58669 unreachable, length 36
+00:14:18.438845 IP 6a:5b:0e:48:54:87 > uschi5-edge-get-002.a.aaplimg.com: ICMP 6a:5b:0e:48:54:87 udp port 58669 unreachable, length 36
+00:14:18.848919 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 116
+00:14:18.848923 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 125
+00:14:18.848925 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 116
+00:14:18.849770 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 50
+00:14:18.851526 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 44
+00:14:18.852379 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 114
+00:14:18.853069 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 36
+00:14:18.853072 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 114
+00:14:18.853075 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 36
+00:14:18.854057 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 44
+00:14:18.855234 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 50
+00:14:18.855393 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 75
+00:14:18.855394 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 62
+00:14:18.855395 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 33
+00:14:18.855855 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 44
+00:14:18.857000 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 44
+00:14:18.858140 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 50
+00:14:18.858975 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 44
+00:14:18.861136 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 33
+00:14:18.865062 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 33
+00:14:18.865070 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 33
+00:14:18.870966 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 75
+00:14:18.871930 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 60
+00:14:18.881815 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 39
+00:14:18.885167 IP ec2-52-204-106-116.compute-1.amazonaws.com.https > 6a:5b:0e:48:54:87.62546: Flags [P.], seq 4153755470:4153755516, ack 569366631, win 118, options [nop,nop,TS val 989965874 ecr 1480769111], length 46
+00:14:18.885168 IP ec2-52-204-106-116.compute-1.amazonaws.com.https > 6a:5b:0e:48:54:87.62546: Flags [P.], seq 46:77, ack 1, win 118, options [nop,nop,TS val 989965874 ecr 1480769111], length 31
+00:14:18.885170 IP ec2-52-204-106-116.compute-1.amazonaws.com.https > 6a:5b:0e:48:54:87.62546: Flags [F.], seq 77, ack 1, win 118, options [nop,nop,TS val 989965874 ecr 1480769111], length 0
+00:14:18.885484 IP 6a:5b:0e:48:54:87.62546 > ec2-52-204-106-116.compute-1.amazonaws.com.https: Flags [.], ack 78, win 2046, options [nop,nop,TS val 1480829105 ecr 989965874], length 0
+00:14:18.886145 IP 6a:5b:0e:48:54:87.62546 > ec2-52-204-106-116.compute-1.amazonaws.com.https: Flags [R.], seq 1, ack 78, win 2048, length 0
+00:14:18.898604 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 50
+00:14:18.903484 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 75
+00:14:18.903486 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 62
+00:14:18.903880 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 50
+00:14:18.905105 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 44
+00:14:18.909864 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 33
+00:14:18.918340 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 39
+00:14:18.918343 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 82
+00:14:18.919183 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 50
+00:14:18.919485 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 67
+00:14:18.919487 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 36
+00:14:18.921139 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 43
+00:14:18.921688 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 50
+00:14:18.922232 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 99
+00:14:18.922234 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 36
+00:14:18.922507 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 44
+00:14:18.923385 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 50
+00:14:18.923945 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 44
+00:14:18.929101 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 33
+00:14:18.931547 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 33
+00:14:18.931548 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 114
+00:14:18.931549 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 36
+00:14:18.931784 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 50
+00:14:18.932601 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 44
+00:14:18.937087 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 33
+00:14:18.949226 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 99
+00:14:18.950480 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 36
+00:14:18.950973 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 60
+00:14:18.955659 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 39
+00:14:18.955823 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 50
+00:14:18.957670 IP ec2-50-19-198-113.compute-1.amazonaws.com.https > 6a:5b:0e:48:54:87.62578: Flags [P.], seq 490565073:490565119, ack 4017859758, win 114, options [nop,nop,TS val 2649922864 ecr 814438733], length 46
+00:14:18.957672 IP ec2-50-19-198-113.compute-1.amazonaws.com.https > 6a:5b:0e:48:54:87.62578: Flags [P.], seq 46:77, ack 1, win 114, options [nop,nop,TS val 2649922864 ecr 814438733], length 31
+00:14:18.957674 IP ec2-50-19-198-113.compute-1.amazonaws.com.https > 6a:5b:0e:48:54:87.62578: Flags [F.], seq 77, ack 1, win 114, options [nop,nop,TS val 2649922864 ecr 814438733], length 0
+00:14:18.957936 IP 6a:5b:0e:48:54:87.62578 > ec2-50-19-198-113.compute-1.amazonaws.com.https: Flags [.], ack 78, win 2046, options [nop,nop,TS val 814498721 ecr 2649922864], length 0
+00:14:18.958589 IP 6a:5b:0e:48:54:87.62578 > ec2-50-19-198-113.compute-1.amazonaws.com.https: Flags [R.], seq 1, ack 78, win 2048, length 0
+00:14:18.982231 IP 20.33.55.12.https > 6a:5b:0e:48:54:87.62555: Flags [P.], seq 1326142944:1326142983, ack 3819507072, win 502, options [nop,nop,TS val 2037306055 ecr 341173753], length 39
+00:14:18.982461 IP 6a:5b:0e:48:54:87.62555 > 20.33.55.12.https: Flags [.], ack 39, win 2047, options [nop,nop,TS val 341187293 ecr 2037306055], length 0
+00:14:18.983262 IP 6a:5b:0e:48:54:87.62555 > 20.33.55.12.https: Flags [R.], seq 1, ack 39, win 2048, length 0
+^C
+127 packets captured
+142 packets received by filter
+0 packets dropped by kernel

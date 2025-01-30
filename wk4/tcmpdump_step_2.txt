@@ -1,0 +1,11 @@
+(base) 6A:5B:0E:48:54:87:~ hoomanafsharnia$ sudo tcpdump -c 5 -i en0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on en0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+00:18:21.185318 IP bedroom.afs3-fileserver > 6a:5b:0e:48:54:87.49289: Flags [.], ack 3842459769, win 4093, options [nop,nop,TS val 3570259952 ecr 3480833686], length 0
+00:18:21.185321 IP bedroom.afs3-fileserver > 6a:5b:0e:48:54:87.49289: Flags [P.], seq 0:309, ack 1, win 4096, options [nop,nop,TS val 3570259953 ecr 3480833686], length 309
+00:18:21.185474 IP 6a:5b:0e:48:54:87.49289 > bedroom.afs3-fileserver: Flags [.], ack 309, win 2043, options [nop,nop,TS val 3480833766 ecr 3570259953], length 0
+00:18:21.213733 IP 6a:5b:0e:48:54:87.58521 > a172-224-186-196.source.akaquill.net.https: UDP, length 29
+00:18:21.232887 IP a172-224-186-196.source.akaquill.net.https > 6a:5b:0e:48:54:87.58521: UDP, length 34
+5 packets captured
+9 packets received by filter
+0 packets dropped by kernel
